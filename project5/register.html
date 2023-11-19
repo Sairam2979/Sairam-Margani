@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+            width: 480px;
+            height: 500px;
+            background-color: rgb(0, 0, 0);
+            border: 20px solid rgb(97, 23, 168);
+            border-radius: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            margin-top: 150px;
+            }
+            input[type=text],select,input[type=email] {
+                width: 200px;
+                padding: 15px;
+                border: 2px solid white;
+                border-radius: 4px;
+                margin: 10px;
+            }
+            input[type=submit],input[type=reset]
+            {
+                background-color: blueviolet;
+                color: white;
+                width: 90px;
+                border: 2px solid black;
+                border-radius: 5px;
+                padding: 20px;
+                margin: 0px 20px;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(80, 73, 73);">
+        <center>
+            <div>
+                <h1>Register</h1>
+                <form action="http://consensusacademy.in/" target="_blank">
+                    <label for="fname" style="font-size: 120%;">First Name :</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Enter First Name" required><br>
+                    <label for="lname" style="font-size: 120%;">Last Name :</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Enter Last Name" required><br>
+                    <label for="email" style="font-size: 120%;">Email Name :</label>
+                    <input type="email" id="email" name="mail" placeholder="Enter your mail" required><br>
+
+                    <label for="Course" style="font-size: 120%;">Course Name :</label>
+                        <select id="course" name="course" required>
+                            <option value="Frontend">Frontend</option>
+                            <option value="Backend">Backend</option>
+                            <option value="Database">Database</option>
+                        </select><br>
+                    <p><input type="submit" value="Submit">  <input type="reset" value="Reset"></p>
+            </div>
+        </center>
+    </body>
+</html>
