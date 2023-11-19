@@ -4,17 +4,30 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My  mapping image</title>
         <style>
+          div {
+            width: 700px;
+            height: 970px;
+            background-color: rgb(224, 213, 213);
+            border: 4px solid black;
+            border-radius: 6px;
+          }
         </style>
         </head>
-    <body style="background-color: black;">
+    <body style="background-image: url('back4.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;">
       <center>
-        <img src="project42.jpg" class="center" usemap="#map1" style="margin-top: 100px;">
-        <map name="map1">
-                <area coords="101,264,57" shape="circle" href="project4.1.html" target="_blank">
-                <area coords="218,256,57" shape="circle" href="project4.2.html" target="_blank">
-                <area coords="346,253,57" shape="circle" href="project4.3.html" target="_blank">
-                <area coords="477,261,57" shape="circle" href="project4.4.html" target="_blank">
-              </map>        
-            </center>
+        <div>
+          <h1 style="padding-top: 50px; font-size: 200%;">Click on face to get thier web page</h1>
+          <img src="project42.jpg" class="center" usemap="#map1" style="margin-top: 20px; border: 4px solid black;">
+          <map name="map1">
+            <area coords="101,264,57" shape="circle" href="project4.1.html" target="_blank">
+            <area coords="218,256,57" shape="circle" href="project4.2.html" target="_blank">
+            <area coords="346,253,57" shape="circle" href="project4.3.html" target="_blank">
+            <area coords="477,261,57" shape="circle" href="project4.4.html" target="_blank">
+          </map>   
+        </div>     
+      </center>
     </body>
 </html>
