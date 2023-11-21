@@ -193,7 +193,8 @@ footer {
 
     a:link, a:visited {
         display: inline;
-        margin: 10px 15px;
+       margin: 5px 10px;
+        font-size: 14px;
     }
 
     a:hover, a:active {
@@ -207,8 +208,10 @@ footer {
 
     input[type=text], input[type=email] {
         width: 100%;
+        padding: 15px 0;
+        margin: 10px 0;
     }
-
+    
     input[type=submit], input[type=reset] {
         width: 100%;
         margin: 10px 0;
