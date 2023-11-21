@@ -191,9 +191,9 @@ footer {
     }
     a:link, a:visited, a:hover, a:active {
         font-size: 14px;
-        margin: 10px 5px;
+        margin: 11px 5px;
         padding: 8px 12px;
-        display: inline-block;
+        display:inline-block;
         width:auto; 
     }
     .div1, .div2 {
