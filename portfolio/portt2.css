@@ -121,7 +121,21 @@ progress {
     width: 80%;
     display: block;
     margin: 0 auto;
-}
+    border-radius: 20px;
+    background-color: blueviolet;
+ }
+ progress::-webkit-progress-bar {
+    border: 0;
+    height: 15px;
+    border-radius: 20px;
+    background-color: rgb(199, 190, 207);
+ }
+ progress::-webkit-progress-value {
+    border: 0;
+    height: 15px;
+    border-radius: 20px;
+    background-color: blueviolet;
+ }
 
 input[type=text], input[type=email] {
     width: 80%;
