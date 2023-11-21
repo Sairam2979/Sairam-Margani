@@ -5,7 +5,10 @@ body {
     color: white;
     margin: 0;
     padding: 0;
+    border-radius: 6px;
+    border: 8px solid blueviolet;
 }
+
 
 li {
     display: inline;
