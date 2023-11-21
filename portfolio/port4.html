@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portt2.css">
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+            border-radius: 6px;
+            border: 8px solid blueviolet;
+        }
+
+        li {
+            display: inline;
+            margin-right: 20px;
+            background-color: white;
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+
+        a:link, a:visited {
+            background-color: black;
+            color: white;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline;
+            border-radius: 6px;
+            margin: 10px 15px;
+        }
+
+        a:hover, a:active {
+            background-color: blueviolet;
+            color: black;
+            border-radius: 6px;
+            display: inline;
+            margin: 10px 15px;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px 0;
+        }
+
+        img {
+            border-radius: 50%;
+            border: 4px solid white;
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        h1 {
+            padding: 5px 0;
+            font-size: 200%;
+            font-weight: bold;
+        }
+
+        hr {
+            border: 2px solid blueviolet;
+        }
+
+        .div1 {
+            width: 80%;
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: blueviolet;
+            border-radius: 7%;
+            color: black;
+            font-weight: bold;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+        }
+        .div2 {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 4px solid blueviolet;
+    background-color: black;
+    border-radius: 7%;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+        table {
+            margin: 20px 0px;
+            color: white;
+            font-size: 130%;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            border: 2px solid blueviolet;
+            background-color: #000000;
+        }
+
+        label {
+            font-size: 110%;
+            margin: 20px 0px;
+            display: block;
+        }
+
+        progress {
+            height: 15px;
+            border-radius: 20px;
+            margin: 20px 0px;
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        input[type=text], input[type=email] {
+            width: 80%;
+            padding: 15px;
+            border: 2px solid white;
+            border-radius: 4px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit], input[type=reset] {
+            background-color: blueviolet;
+            color: white;
+            width: 90%;
+            border: 2px solid black;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 0px 10px;
+            box-sizing: border-box;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .fa {
+            padding: 20px;
+            text-align: center;
+            margin: 2px 2px;
+            font-size: 30px;
+            text-decoration: none;
+        }
+
+        .fa-linkedin {
+            background-color: blue;
+            color: white;
+            width: 30px;
+            border-radius: 10px;
+        }
+
+        .fa-whatsapp {
+            background-color: rgb(40, 212, 40);
+            color: white;
+            width: 30px;
+            border-radius: 10px;
+        }
+
+        .fa-github {
+            background-color: rgb(166, 4, 128);
+            color: white;
+            width: 30px;
+            border-radius: 10px;
+        }
+
+        .fa-home {
+            background-color: white;
+            border-radius: 10px;
+            color: black;
+            width: 30px;
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            li {
+                display: inline;
+                margin-bottom: 10px;
+                width: 50%;
+            }
+
+            a:link, a:visited {
+                display: inline;
+                margin: 10px 15px;
+            }
+
+            a:hover, a:active {
+                display: inline;
+                margin: 5px 5px;
+            }
+
+            .div1, .div2 {
+                width: 90%;
+            }
+
+            input[type=text], input[type=email] {
+                width: 100%;
+            }
+
+            input[type=submit], input[type=reset] {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>MY PORTFOLIO</h1>
+    <a href="#home">Home</a>
+    <a href="#about me">About me</a>
+    <a href="#Skills">Skills</a>
+    <a href="#massege">Massage</a>
+    <a href="#contact">Contact me</a>
+</header>
+<hr>
+<section id="home">
+    <h1>Margani Sairam</h1>
+    <img src="my.jpg" alt="" height="300px" width="300px">
+    <h3>Full Stack Web Developer | Java Programmer</h3>
+</section>
+<section id="about me">
+    <h1 style="font-size: 250%;">About me</h1>
+    <center>
+        <div class="div1">
+            <h1 style="margin: 5px 0px;">About me</h1>
+            <h3 style="font-size: 120%; margin: 0px 40px;">I am a Engineer Passinated on Programming and Web development. I am very focused on Full Stack Web Development. I learnt all the modules in Full Stack. And I am good in Front end and Backend especially in java programming.</h3>
+            <h1 style="margin: 10px 0px;">Career Objective</h1>
+            <h3 style="font-size: 120%; margin: 0px 40px;"> I am the one who is driving my life on the road of career. On This beautiful running journey, I am the person who faced and going through the Ups and downs, but I am riding my life until I reach the dead end.</h3>
+        </div>
+    </center>
+</section>
+<section id="Skills">
+    <h1 style="font-size: 250%;">Skills & Experience</h1>
+    <center>
+        <table>
+            <tr>
+                <th>Frontend</th>
+                <th>Backend</th>
+                <th>Database</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Node JS</td>
+                <td>MongoDB</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>JAVA</td>
+                <td>Django</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Express JS</td>
+                <td>MySQL</td>
+            </tr>
+        </table>
+    </center>
+</section>
+<section>
+    <ul></ul>
+    <h1 style="font-size: 250%;">Programming Levels</h1>
+    <label for="html"> HTML & CSS :</label>
+    <progress id="html" value="92" max="100"> 92% </progress><br>
+    <label for="Java"> JAVA PROGRM:</label>
+    <progress id="Java" value="82" max="100"> 82% </progress><br>
+    <label for="MS"> MS OFFICE :</label>
+    <progress id="MS" value="80" max="100"> 80% </progress><br>
+    <label for="JS"> JAVA SCRIPT :</label>
+    <progress id="JS" value="72" max="100"> 72% </progress><br>
+    <label for="PYTHON"> PYTHON :</label>
+    <progress id="PYTHON" value="68" max="100"> 68% </progress><br>
+</section>
+<section id="massege">
+    <h1 style="font-size: 250%;">Drop Your Massage</h1>
+    <div class="div2">
+        <form action="#contact" target="_blank">
+            <label for="name" style="font-size: 120%;">Name :</label>
+            <input type="text" id="name" name="name" placeholder="Enter First Name" required><br>
+            <label for="email" style="font-size: 120%;">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Enter your mail" required><br>
+            <label for="message" style="font-size: 120%;">Message :</label>
+            <input type="text" id="message" name="message" placeholder="Enter your message" required style="height: 50px ;"><br>
+            <p><input type="submit" value="Send Message">  <input type="reset" value="Reset"></p>
+        </form>
+    </div>
+</section>
+<hr>
+<footer id="contact">
+    <a href="#home">Home</a>
+    <a href="#about me">About me</a>
+    <a href="#Skills">Skills</a>
+    <a href="#massege">Massage</a>
+    <a href="#contact">Contact me</a>
+    <h1 style="font-size: 250%;">Contact Me</h1>
+    <center>
+        <table >
+            <tr style="border: 1px solid black">
+                <td style="padding: 10px; border: none"><a href="https://www.linkedin.com/in/sairam-margani-7b79a4277/" class="fa fa-linkedin" target="_blank"></a></td>
+                <td style="padding: 10px; border: none"><a href="https://wa.me/+916302122551?text=Hello Sairam" target="_blank" class="fa fa-whatsapp"></a></td>
+                <td style="padding: 10px; border: none"><a href="https://github.com/Sairam2979/Sairam-Margani" target="_blank" class="fa fa-github"></a></td>
+                <td style="padding: 10px; border: none"><a href="port2.html" class="fa fa-home"></a></td>
+            </tr>
+        </table>
+    </center>
+    <h3>&copy; Sairam Margani | All rights reserved | E-mail : marganisairam2979@gmail.com</h3>
+</footer>
+</body>
+</html>
