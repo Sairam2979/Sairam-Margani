@@ -190,10 +190,10 @@ footer {
     }
     a:link, a:visited, a:hover, a:active {
         font-size: 14px;
-        margin: 10px 5px;
+        margin: 2px 5px;
         padding: 8px 12px;
         display: inline-block;
-        width: 10%; 
+        width:auto; 
     }
     .div1, .div2 {
         width: 90%;
