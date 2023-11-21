@@ -193,7 +193,7 @@ footer {
         margin: 10px 5px;
         padding: 8px 12px;
         display: inline-block;
-        width: auto; 
+        width: 50%; 
     }
     .div1, .div2 {
         width: 90%;
