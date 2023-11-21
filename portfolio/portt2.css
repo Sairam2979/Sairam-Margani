@@ -190,13 +190,13 @@ footer {
     }
     a:link, a:visited {
         font-size: 14px;
-        margin: 5px 5px;
+        margin: 15px 5px;
         padding: 8px 12px;
     }
 
 
     a:hover, a:active {
-        margin: 5px 5px;
+        margin: 15px 5px;
         padding: 8px 12px;
     }
 
