@@ -217,7 +217,7 @@ footer {
     }
     a:link, a:visited, a:hover, a:active {
         font-size: 45%;
-        margin: 10px 2px;
+        margin: 2px 2px;
         padding: 4px 8px;
         display:inline-block;
         width:auto; 
