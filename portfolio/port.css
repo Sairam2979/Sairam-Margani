@@ -160,10 +160,10 @@ input[type=submit], input[type=reset] {
     border-radius: 8px;
     font-size: 110%;
     padding: 15px;
-    margin: 0px 10px;
+    margin: 20px 10px;
     box-sizing: border-box;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     cursor: pointer;
 
 }
@@ -216,8 +216,8 @@ footer {
         font-size: 80%;
     }
     a:link, a:visited, a:hover, a:active {
-        font-size: 50%;
-        margin: 11px 5px;
+        font-size: 45%;
+        margin: 10px 2px;
         padding: 4px 8px;
         display:inline-block;
         width:auto; 
