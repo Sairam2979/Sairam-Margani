@@ -185,16 +185,19 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-
+    h1{
+        font-size: 150%;
+    }
     a:link, a:visited {
-        display: inline;
-       margin: 5px 10px;
         font-size: 14px;
+        margin: 5px 5px;
+        padding: 8px 12px;
     }
 
+
     a:hover, a:active {
-        display: inline;
         margin: 5px 5px;
+        padding: 8px 12px;
     }
 
     .div1, .div2 {
