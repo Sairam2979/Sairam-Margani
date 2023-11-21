@@ -25,14 +25,14 @@ a:link, a:visited {
     text-decoration: none;
     display: inline;
     border-radius: 6px;
-    margin:10px 10px ;
+    margin:10px 15px ;
   }
   
   a:hover, a:active {
     background-color: blueviolet;
     border-radius: 6px;
     display: inline;
-    margin: 10px 10px;
+    margin: 10px 15px;
   }
 
 header {
@@ -187,7 +187,14 @@ text-decoration: none;
         margin-bottom: 10px;
         width: 50%;
     }
-
+    a:link, a:visited {
+        display: inline;
+        margin:10px 15px ;
+      }
+      a:hover, a:active {
+        display: inline;
+        margin: 10px 15px;
+      }
     .div1, .div2 {
         width: 90%;
     }
