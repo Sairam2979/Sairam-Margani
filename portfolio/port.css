@@ -245,4 +245,8 @@ footer {
         width: 100%;
         margin: 10px 0;
     }
+    body
+    {
+        border: 4px solid blueviolet;
+    }
 }
