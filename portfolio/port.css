@@ -207,7 +207,7 @@ footer {
     }
     input[type=text], input[type=email] {
         width: 100%;
-        padding: 15px 0;
+        padding: 15px ;
         margin: 10px 0;
     }
     
