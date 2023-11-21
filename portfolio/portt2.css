@@ -179,6 +179,7 @@ text-decoration: none;
     li {
         display:inline-block ;
         margin-bottom: 10px;
+        width: 50%;
     }
 
     .div1, .div2 {
