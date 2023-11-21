@@ -199,7 +199,14 @@ footer {
     .div1, .div2 {
         width: 90%;
     }
+    table {
+        width: 100%;
+    }
 
+    th, td {
+        width: auto;
+    
+    }
     input[type=text], input[type=email] {
         width: 100%;
         padding: 15px 0;
