@@ -188,20 +188,13 @@ footer {
     h1{
         font-size: 150%;
     }
-    a:link, a:visited {
+    a:link, a:visited, a:hover, a:active {
         font-size: 14px;
-        margin: 15px 5px;
+        margin: 10px 5px;
         padding: 8px 12px;
-        width:50%;
+        display: inline-block;
+        width: auto; 
     }
-
-
-    a:hover, a:active {
-        margin: 15px 5px;
-        padding: 8px 12px;
-        width:50%;
-    }
-
     .div1, .div2 {
         width: 90%;
     }
