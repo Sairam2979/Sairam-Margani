@@ -1,0 +1,118 @@
+
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <style>
+        body {
+            background-color: black;
+            color: white;            
+        }
+        .class1
+        {
+            background-color: rgb(126, 113, 113);
+            color: black;
+        }
+        .class2
+        {
+            background-color: orange;
+            color: black;
+        }
+        .class1:hover
+        {
+            background-color: rgb(126, 113, 113);
+        }
+        .class2:hover
+        {
+            background-color: orange;
+        }
+        button:hover{
+            background-color: blue;
+            transition-duration: 1s;
+        }
+        
+        button{
+            height:100px;
+            width:100px;
+            font-weight: bold;
+            border: 1px solid black;
+            border-radius: 50%;
+            background-color: rgb(19, 15, 15);
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            font-size: 150%;
+            cursor: pointer;
+        }
+        #result{
+            height:150px;
+            width: 380px;
+            border: 4px solid black;
+            font-weight: bold;
+            background-color: black;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            font-size: 300%;
+        }
+    </style>
+    <body><center>
+        <input type="text" placeholder="0" id="result">
+        <table>
+            <tr>
+                <td><button onclick="clr('c')" class="class1">C</button></td>
+                <td><button onclick="display('&#40')" class="class1">&#40</button></td>
+                <td><button onclick="display('&#41')" class="class1">&#41</button></td>
+                <td><button onclick="display('+')" class="class2">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display('7')">7</button></td>
+                <td><button onclick="display('8')">8</button></td>
+                <td><button onclick="display('9')">9</button></td>
+                <td><button onclick="display('-')" class="class2">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display('4')">4</button></td>
+                <td><button onclick="display('5')">5</button></td>
+                <td><button onclick="display('6')">6</button></td>
+                <td><button onclick="display('*')" class="class2">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display('1')">1</button></td>
+                <td><button onclick="display('2')">2</button></td>
+                <td><button onclick="display('3')">3</button></td>
+                <td><button onclick="display('/')" class="class2">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display('0')">0</button></td>
+                <td><button onclick="display('.')" class="class1">.</button></td>
+                <td><button onclick="per('%')" class="class2">%</button></td>
+                <td><button onclick="calculate('=')" class="class2">=</button></td>
+            </tr>
+        </table>
+    </center>
+    </body>
+    <script>
+        let output=document.getElementById("result");
+        function display(num)
+        {
+            output.value+=num
+        }
+        function calculate(){
+            try
+            {
+                output.value=eval(output.value);
+            }
+            catch(err)
+            {
+                alert("Invalid");
+            }
+        }
+        function clr()
+        {
+            output.value="";
+        }
+        function per()
+        {
+            output.value = output.value/100;
+        }
+    </script>
+</html>
