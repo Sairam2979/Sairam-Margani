@@ -50,7 +50,7 @@ button{
 @media (max-width: 600px) {
     
     #result{
-        width: 100%;
+        width:100%;
     }
     button {
         width: 80px;
