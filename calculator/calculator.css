@@ -49,7 +49,7 @@ button{
 }
 @media (max-width: 600px) {
     button {
-        width:auto;
+        width:100%;
     }
     table {
         width: 100%;
