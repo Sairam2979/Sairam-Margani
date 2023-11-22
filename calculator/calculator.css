@@ -50,14 +50,14 @@ button{
 @media (max-width: 600px) {
     
     #result{
-        width:100%;
+        width: 304px;
     }
     button {
         width: 80px;
         height: 80px;
     }
     table {
-        margin-top: 40px;
+        margin-top: 200px;
         width: 100%;
     }
 }
