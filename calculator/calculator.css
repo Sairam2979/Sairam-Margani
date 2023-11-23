@@ -51,13 +51,13 @@ button{
     
     #result{
         width: 305px;
+        height: 250px;
     }
     button {
         width: 80px;
         height: 80px;
     }
     table {
-        margin-top: 99px;
         width: 100%;
     }
 }
